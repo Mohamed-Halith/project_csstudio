@@ -1,0 +1,56 @@
+.brand-blue {
+  color: #2612b6;
+}
+.section-title__tagline {
+  border-bottom: 1px solid #e2e2e2;
+  padding: 20px 0;
+}
+
+body {
+  background: #2612b6;
+}
+.welcome-one {
+  border: 1px solid #fff;
+  border-top-right-radius: 15%;
+  border-top-left-radius: 15%;
+  background: #fff;
+}
+.get-in-touch {
+  border-top-right-radius: 15%;
+  border-top-left-radius: 15%;
+  background: #fff;
+}
+.card {
+  border-radius: var(--moniz-border-radius, 10px);
+  background-color: white;
+  -webkit-box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.07);
+  box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.07);
+  padding: 40px 50px;
+  text-align: center;
+  margin-bottom: 40px;
+  border: 0px;
+}
+.welcome-one-bottom {
+  border-radius: 0%;
+  border-bottom-right-radius: 15%;
+  border-bottom-left-radius: 15%;
+}
+.brand-yellow {
+  color: #ffc200;
+}
+.slide-svg {
+  z-index: 999999;
+  top: 0;
+  right: -23rem;
+  width: 100%;
+}
+.up-arrow {
+  position: relative;
+  top: 80px;
+}
+.slide-rotate {
+  transform: rotate(-12deg) !important;
+  font-size: 35px !important;
+  padding-left: 40px !important;
+  color: #ffc200 !important;
+}
