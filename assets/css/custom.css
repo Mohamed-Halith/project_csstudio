@@ -5,9 +5,9 @@
   height: 100vh;
   position: relative;
   overflow: hidden;
-  @media (min-width: 600px) {
+  /* @media (min-width: 600px) {
     height: 100vh;
-  }
+  } */
 }
 
 video {
@@ -40,14 +40,16 @@ body {
   background-size: cover;
 }
 .welcome-one {
+  position: relative;
+  top: -120px;
   border: 1px solid #fff;
   border-top-right-radius: 15%;
   border-top-left-radius: 15%;
   background: #fff;
 }
 .get-in-touch {
-  border-top-right-radius: 15%;
-  border-top-left-radius: 15%;
+  border-top-right-radius: 120px;
+  border-top-left-radius: 120px;
   background: #fff;
 }
 .card {
@@ -62,8 +64,8 @@ body {
 }
 .welcome-one-bottom {
   border-radius: 0%;
-  border-bottom-right-radius: 15%;
-  border-bottom-left-radius: 15%;
+  border-bottom-right-radius: 120px;
+  border-bottom-left-radius: 120px;
 }
 .brand-yellow {
   color: #ffc200;
@@ -528,5 +530,68 @@ body {
 @keyframes blink {
   50% {
     opacity: 0.6;
+  }
+}
+
+/* mobile responsove */
+
+@media only screen and (max-width: 600px) {
+  video {
+    object-fit: fill;
+    height: 100%;
+  }
+  .video-container {
+    height: 35vh;
+    position: relative;
+    overflow: hidden;
+  }
+  .welcome-one {
+    border-radius: 0;
+    top: 0;
+    padding: 40px 0;
+  }
+  .nopad-mobile {
+    padding: 0 !important;
+  }
+  .welcome-one__img > img {
+    width: 100% !important;
+  }
+  .welcome-one__left {
+    margin-bottom: 0;
+  }
+  .welcome-one__right > div,
+  .welcome-one__right > div > h2,
+  .welcome-one__right > div > p {
+    text-align: left !important;
+  }
+  .portfolio-one {
+    padding-top: 40px;
+  }
+  .get-in-touch {
+    border-radius: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .get-in-touch > div > div {
+    text-align: left !important;
+  }
+  .get-in-touch__locations-single {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .main-menu-wrapper {
+    padding: 15px 0;
+  }
+  .main-menu-wrapper__logo img {
+    width: 110px;
+  }
+  .main-menu-wrapper__main-menu {
+    top: 15px;
+  }
+  .modal-header {
+    padding: 10px 35px;
+  }
+  .modal {
+    padding: 0 !important;
   }
 }

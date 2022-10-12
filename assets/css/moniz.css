@@ -3076,7 +3076,7 @@ body.boxed-wrapper {
 .portfolio-one {
   position: relative;
   display: block;
-  padding: 80px 0 0;
+  padding: 0;
 }
 
 .portfolio-one__container {
