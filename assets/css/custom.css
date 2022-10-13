@@ -593,4 +593,7 @@ body {
   .modal {
     padding: 0 !important;
   }
+  .video-container > .thm-btn {
+    display: none;
+  }
 }
