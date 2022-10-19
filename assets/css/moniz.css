@@ -328,7 +328,7 @@ ul {
 
 .preloader {
   position: fixed;
-  background-color: var(--moniz-black, #1e1e22);
+  background-color: #ccc;
   background-position: center center;
   background-repeat: no-repeat;
   top: 0;
