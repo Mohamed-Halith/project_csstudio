@@ -1402,7 +1402,7 @@ body.boxed-wrapper {
 
 .mobile-nav__content {
   width: 300px;
-  background-color: var(--moniz-black, #1e1e22);
+  background-color: #000;
   z-index: 10;
   position: relative;
   height: 100%;
@@ -2328,7 +2328,7 @@ body.boxed-wrapper {
 .welcome-one {
   position: relative;
   display: block;
-  padding: 120px 0 120px;
+  padding: 100px 0 100px;
 }
 
 .welcome-one__left {
@@ -5814,7 +5814,7 @@ body.boxed-wrapper {
 .get-in-touch {
   position: relative;
   display: block;
-  padding: 120px 0 120px;
+  padding: 100px 0 100px;
 }
 
 .get-in-touch__img {

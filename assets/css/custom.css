@@ -1,3 +1,22 @@
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffc200;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #000;
+}
+
 .brand-blue {
   color: #2612b6;
 }
@@ -41,15 +60,15 @@ body {
 }
 .welcome-one {
   position: relative;
-  top: -120px;
+  top: -70px;
   border: 1px solid #fff;
-  border-top-right-radius: 15%;
-  border-top-left-radius: 15%;
+  border-top-right-radius: 8%;
+  border-top-left-radius: 8%;
   background: #fff;
 }
 .get-in-touch {
-  border-top-right-radius: 120px;
-  border-top-left-radius: 120px;
+  border-top-right-radius: 8%;
+  border-top-left-radius: 8%;
   background: #fff;
 }
 .card {
@@ -63,9 +82,10 @@ body {
   border: 0px;
 }
 .welcome-one-bottom {
-  border-radius: 0%;
-  border-bottom-right-radius: 120px;
-  border-bottom-left-radius: 120px;
+  border-bottom-right-radius: 8%;
+  border-bottom-left-radius: 8%;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }
 .brand-yellow {
   color: #ffc200;
@@ -531,6 +551,31 @@ body {
   50% {
     opacity: 0.6;
   }
+}
+
+.portfolio-one {
+  padding: 40px 0 0;
+}
+
+.modal-dialog {
+  max-width: 100% !important;
+}
+
+.modal {
+  padding: 0 20px !important;
+}
+
+.modal-open .modal {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-content {
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.filter-item {
+  padding-top: 35px;
 }
 
 /* mobile responsove */

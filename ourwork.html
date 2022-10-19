@@ -37,34 +37,7 @@
 	<link rel="stylesheet" id="jssMode" href="assets/css/modes/moniz-normal.css">
 	<link rel="stylesheet" href="assets/css/moniz-toolbar.css">
 	<link rel="stylesheet" href="assets/css/custom.css" />
-
 </head>
-<style>
-	.portfolio-one {
-		padding: 120px 0 0;
-	}
-
-	.modal-dialog {
-		max-width: 100% !important;
-	}
-
-	.modal {
-		padding: 0 20px;
-	}
-
-	.modal-open .modal {
-		background: rgba(0, 0, 0, 0.6);
-	}
-
-	.modal-content {
-		background-color: #f4f4f4;
-		border-radius: 20px;
-	}
-
-	.filter-item {
-		padding-top: 35px;
-	}
-</style>
 
 
 <body>
@@ -91,8 +64,8 @@
 							<span></span>
 						</a>
 						<ul class="main-menu__list one-page-scroll-menu">
-							<li class="dropdown scrollToLink current">
-								<a href="index.html#home">Home</a>
+							<li class="scrollToLink current">
+								<a href="index.html#main-hero">Home</a>
 							</li>
 							<li class="scrollToLink"><a href="index.html#about">About</a></li>
 							<li class="scrollToLink"><a href="index.html#services">Services</a></li>
@@ -108,7 +81,7 @@
 			<div class="sticky-header__content"></div>
 		</div>
 
-		<section class="portfolio-one pb-5 mb-5" id="portfolio">
+		<section class="portfolio-one pb-5 mb-5" id="portfolio" style="padding-top: 140px;">
 			<div class="portfolio-one__container">
 				<div class="section-title text-center">
 					<span class="section-title__tagline text-white">OUR WORK</span>
@@ -135,205 +108,72 @@
 				</div>
 				<div class="row filter-layout masonary-layout" style="position: relative; height: 375.625px;">
 					<div class="col-xl-3 col-lg-6 col-md-6 filter-item branding-f web photo"
-						style="position: absolute; left: 0px; top: 0px;">
+						style="position: absolute; left: 0px; top: 0px;" data-toggle="modal" data-target="#tvc">
 						<div class="portfolio-one__single wow fadeInUp animated" data-wow-delay="100ms"
-							style="visibility: visible; animation-delay: 100ms; animation-name: fadeInUp;"
-							data-toggle="modal" data-target="#rolls">
+							style="visibility: visible; animation-delay: 100ms; animation-name: fadeInUp;">
 							<div class="portfolio-one__img">
-								<img src="assets/images/resources/portfolio-1-1.jpg" alt="">
+								<img src="assets/images/project_covers/TVC.webp" alt="">
 								<div class="portfolio-one__experience">
 									<div class="portfolio-one__fimlor">
-										<p class="portfolio-one__fimlor-title"><a href="#">Rolls & Bowls</a></p>
+										<p class="portfolio-one__fimlor-title"><a href="#">The Valor Collective</a></p>
 									</div>
 								</div>
-								<div class="portfolio-one__arrow" data-toggle="modal" data-target="#rolls">
+								<div class="portfolio-one__arrow" data-toggle="modal" data-target="#tvc">
+									<a href="#"><span class="icon-right-arrow"></span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-6 col-md-6 filter-item logo-concepts photo"
+						style="position: absolute; left: 356px; top: 0px;" data-toggle="modal"
+						data-target="#meowtropolis">
+						<div class="portfolio-one__single wow fadeInUp animated" data-wow-delay="200ms"
+							style="visibility: visible; animation-delay: 200ms; animation-name: fadeInUp;">
+							<div class="portfolio-one__img">
+								<img src="assets/images/project_covers/Meowtropolis.webp" alt="">
+								<div class="portfolio-one__experience">
+									<div class="portfolio-one__fimlor">
+										<p class="portfolio-one__fimlor-title"><a href="#">Meowtropolis</a></p>
+									</div>
+								</div>
+								<div class="portfolio-one__arrow" data-toggle="modal" data-target="#meowtropolis">
 									<a href="#"><span class="icon-right-arrow"></span></a>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div class="col-xl-3 col-lg-6 col-md-6 filter-item logo-concepts illus web"
-						style="position: absolute; left: 712px; top: 0px;">
+						style="position: absolute; left: 712px; top: 0px;" data-toggle="modal" data-target="#tatveda">
 						<div class="portfolio-one__single mar-b-0 margin-bottom-30 wow fadeInUp animated"
 							data-wow-delay="300ms"
-							style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUp;"
-							data-toggle="modal" data-target="#nefc">
+							style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUp;">
 							<div class="portfolio-one__img">
-								<img src="assets/images/resources/portfolio-1-3.jpg" alt="">
+								<img src="assets/images/project_covers/Tatveda.webp" alt="">
 								<div class="portfolio-one__experience">
 									<div class="portfolio-one__fimlor">
 										<p class="portfolio-one__fimlor-title"><a href="#">
-												NEFC</a></p>
+												Tatveda Organics</a></p>
 									</div>
 								</div>
-								<div class="portfolio-one__arrow" data-toggle="modal" data-target="#nefc">
+								<div class="portfolio-one__arrow" data-toggle="modal" data-target="#tatveda">
 									<a href="#"><span class="icon-right-arrow"></span></a>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div class="col-xl-3 col-lg-6 col-md-6 filter-item logo-concepts illus photo"
-						style="position: absolute; left: 1068px; top: 0px;">
+						style="position: absolute; left: 1068px; top: 0px;" data-toggle="modal"
+						data-target="#grandcrest">
 						<div class="portfolio-one__single mar-b-0 wow fadeInUp animated" data-wow-delay="400ms"
-							style="visibility: visible; animation-delay: 400ms; animation-name: fadeInUp;"
-							data-toggle="modal" data-target="#Tattveda">
+							style="visibility: visible; animation-delay: 400ms; animation-name: fadeInUp;">
 							<div class="portfolio-one__img">
-								<img src="assets/images/resources/portfolio-1-4.jpg" alt="">
+								<img src="assets/images/project_covers/GCID.webp" alt="">
 								<div class="portfolio-one__experience">
 									<div class="portfolio-one__fimlor">
-										<p class="portfolio-one__fimlor-title"><a href="#">Tattveda</a></p>
+										<p class="portfolio-one__fimlor-title"><a href="#">Grand Crest</a></p>
 									</div>
 								</div>
-								<div class="portfolio-one__arrow" data-toggle="modal" data-target="#Tattveda">
-									<a href="#"><span class="icon-right-arrow"></span></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-xl-3 col-lg-6 col-md-6 filter-item branding-f photo"
-						style="position: absolute; left: 1068px; top: 0px;">
-						<div class="portfolio-one__single mar-b-0 wow fadeInUp animated" data-wow-delay="400ms"
-							style="visibility: visible; animation-delay: 400ms; animation-name: fadeInUp;"
-							data-toggle="modal" data-target="#jeeya">
-							<div class="portfolio-one__img">
-								<img src="assets/images/resources/portfolio-1-4.jpg" alt="">
-								<div class="portfolio-one__experience">
-									<div class="portfolio-one__fimlor">
-										<p class="portfolio-one__fimlor-title"><a href="#">Jeeya Branding
-											</a></p>
-									</div>
-								</div>
-								<div class="portfolio-one__arrow" data-toggle="modal" data-target="#jeeya">
-									<a href="#"><span class="icon-right-arrow"></span></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-xl-3 col-lg-6 col-md-6 filter-item print photo"
-						style="position: absolute; left: 1068px; top: 0px;">
-						<div class="portfolio-one__single mar-b-0 wow fadeInUp animated" data-wow-delay="400ms"
-							style="visibility: visible; animation-delay: 400ms; animation-name: fadeInUp;"
-							data-toggle="modal" data-target="#pure_minds">
-							<div class="portfolio-one__img">
-								<img src="assets/images/resources/portfolio-1-4.jpg" alt="">
-								<div class="portfolio-one__experience">
-									<div class="portfolio-one__fimlor">
-										<p class="portfolio-one__fimlor-title"><a href="#">Pure Minds - Activity Box</a>
-										</p>
-									</div>
-								</div>
-								<div class="portfolio-one__arrow" data-toggle="modal" data-target="#pure_minds">
-									<a href="#"><span class="icon-right-arrow"></span></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-xl-3 col-lg-6 col-md-6 filter-item logo-concepts illus photo"
-						style="position: absolute; left: 1068px; top: 0px;">
-						<div class="portfolio-one__single mar-b-0 wow fadeInUp animated" data-wow-delay="400ms"
-							style="visibility: visible; animation-delay: 400ms; animation-name: fadeInUp;"
-							data-toggle="modal" data-target="#aqdar">
-							<div class="portfolio-one__img">
-								<img src="assets/images/resources/portfolio-1-4.jpg" alt="">
-								<div class="portfolio-one__experience">
-									<div class="portfolio-one__fimlor">
-										<p class="portfolio-one__fimlor-title"><a href="#">Aqdar World Summit</a></p>
-									</div>
-								</div>
-								<div class="portfolio-one__arrow" data-toggle="modal" data-target="#aqdar">
-									<a href="#"><span class="icon-right-arrow"></span></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-xl-3 col-lg-6 col-md-6 filter-item social-media photo"
-						style="position: absolute; left: 1068px; top: 0px;">
-						<div class="portfolio-one__single mar-b-0 wow fadeInUp animated" data-wow-delay="400ms"
-							style="visibility: visible; animation-delay: 400ms; animation-name: fadeInUp;"
-							data-toggle="modal" data-target="#dubai_holding">
-							<div class="portfolio-one__img">
-								<img src="assets/images/resources/portfolio-1-4.jpg" alt="">
-								<div class="portfolio-one__experience">
-									<div class="portfolio-one__fimlor">
-										<p class="portfolio-one__fimlor-title"><a href="#">Dubai Holding Social
-												Media</a></p>
-									</div>
-								</div>
-								<div class="portfolio-one__arrow" data-toggle="modal" data-target="#dubai_holding">
-									<a href="#"><span class="icon-right-arrow"></span></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-xl-3 col-lg-6 col-md-6 filter-item social-media photo"
-						style="position: absolute; left: 1068px; top: 0px;">
-						<div class="portfolio-one__single mar-b-0 wow fadeInUp animated" data-wow-delay="400ms"
-							style="visibility: visible; animation-delay: 400ms; animation-name: fadeInUp;"
-							data-toggle="modal" data-target="#audi">
-							<div class="portfolio-one__img">
-								<img src="assets/images/resources/portfolio-1-4.jpg" alt="">
-								<div class="portfolio-one__experience">
-									<div class="portfolio-one__fimlor">
-										<p class="portfolio-one__fimlor-title"><a href="#">Audi - Social Pitch </a></p>
-									</div>
-								</div>
-								<div class="portfolio-one__arrow" data-toggle="modal" data-target="#audi">
-									<a href="#"><span class="icon-right-arrow"></span></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-xl-3 col-lg-6 col-md-6 filter-item branding-f photo"
-						style="position: absolute; left: 1068px; top: 0px;">
-						<div class="portfolio-one__single mar-b-0 wow fadeInUp animated" data-wow-delay="400ms"
-							style="visibility: visible; animation-delay: 400ms; animation-name: fadeInUp;"
-							data-toggle="modal" data-target="#lg_design">
-							<div class="portfolio-one__img">
-								<img src="assets/images/resources/portfolio-1-4.jpg" alt="">
-								<div class="portfolio-one__experience">
-									<div class="portfolio-one__fimlor">
-										<p class="portfolio-one__fimlor-title"><a href="#">LG Design Summit </a></p>
-									</div>
-								</div>
-								<div class="portfolio-one__arrow" data-toggle="modal" data-target="#lg_design">
-									<a href="#"><span class="icon-right-arrow"></span></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-xl-3 col-lg-6 col-md-6 filter-item print photo"
-						style="position: absolute; left: 1068px; top: 0px;">
-						<div class="portfolio-one__single mar-b-0 wow fadeInUp animated" data-wow-delay="400ms"
-							style="visibility: visible; animation-delay: 400ms; animation-name: fadeInUp;"
-							data-toggle="modal" data-target="#united_nations">
-							<div class="portfolio-one__img">
-								<img src="assets/images/resources/portfolio-1-4.jpg" alt="">
-								<div class="portfolio-one__experience">
-									<div class="portfolio-one__fimlor">
-										<p class="portfolio-one__fimlor-title"><a href="#">United Nations</a></p>
-									</div>
-								</div>
-								<div class="portfolio-one__arrow" data-toggle="modal" data-target="#united_nations">
-									<a href="#"><span class="icon-right-arrow"></span></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-xl-3 col-lg-6 col-md-6 filter-item social-media photo"
-						style="position: absolute; left: 1068px; top: 0px;">
-						<div class="portfolio-one__single mar-b-0 wow fadeInUp animated" data-wow-delay="400ms"
-							style="visibility: visible; animation-delay: 400ms; animation-name: fadeInUp;"
-							data-toggle="modal" data-target="#kagi">
-							<div class="portfolio-one__img">
-								<img src="assets/images/resources/portfolio-1-4.jpg" alt="">
-								<div class="portfolio-one__experience">
-									<div class="portfolio-one__fimlor">
-										<p class="portfolio-one__fimlor-title"><a href="#">Kagi Chocolates - Pitch
-												Proposal
-											</a></p>
-									</div>
-								</div>
-								<div class="portfolio-one__arrow" data-toggle="modal" data-target="#kagi">
+								<div class="portfolio-one__arrow" data-toggle="modal" data-target="#grandcrest">
 									<a href="#"><span class="icon-right-arrow"></span></a>
 								</div>
 							</div>
@@ -342,400 +182,212 @@
 				</div>
 
 				<!-- Modal -->
-
-				<div class="modal fade bd-example-modal-lg" id="pure_minds" tabindex="-1" role="dialog"
+				<div class="modal fade bd-example-modal-lg" id="tvc" tabindex="-1" role="dialog"
 					aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 					<div class="modal-dialog modal-dialog-centered" role="document">
 						<div class="modal-content">
-							<div class="modal-header">
+							<div class="modal-header px-5">
 								<h5 class="modal-title" id="exampleModalLongTitle">Project Summary</h5>
-								<div type="button" class="" class="close" data-dismiss="modal" aria-label="Close">
+								<div type="button" class="close" data-dismiss="modal" aria-label="Close">
 									<a href="#"><span><i class="fa fa-times" aria-hidden="true"></i></span></a>
 								</div>
 							</div>
 							<div class="modal-body">
 								<div class="container-fluid">
-									<h2 class="text-center py-4">Pure Minds - Activity Box</h2>
-									<div class="modal-visuals">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/pure_1.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/pure_2.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/pure_3.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/pure_4.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/pure_5.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/pure_6.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/pure_7.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/pure_8.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/pure_9.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/pure_10.webp"
-											alt="">
-
+									<div class="row py-4 mb-5">
+										<div class="col-md-6 px-5 nopad-mobile">
+											<h2 class="text-left py-4">The Valor Collective</h2>
+											<p class="text-left m-0 pb-4">Welcome to the land of Luxury! <br>
+												This company provides, buys and trade thr moost authentic timepiecs.
+												They prove their clients with the best service. <br>
+												Their scope of work included social media management, designing print &
+												packaging material such as Gift boxes Stationary and Business Cards.
+											</p>
+											<div class="d-flex gap-5 text-center">
+												<div class="">
+													<p class="text-muted">YEAR</p>
+													<h4>2022</h4>
+												</div>
+												<div class="">
+													<p class="text-muted">INDUSTRY</p>
+													<h4>Luxury</h4>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6 text-center">
+											<!-- <img class="w-75" src="assets/images/projects/gc1.png" alt=""> -->
+										</div>
+									</div>
+									<div class="modal-visuals px-5 nopad-mobile">
+										<img class="w-100 mb-4 rounded" src="assets/images/projects/tvc1.png" alt="">
+										<img class="w-100 mb-4 rounded" src="assets/images/projects/tvc2.png" alt="">
+										<img class="w-100 mb-4 rounded" src="assets/images/projects/tvc3.png" alt="">
+										<img class="w-100 mb-4 rounded" src="assets/images/projects/tvc4.png" alt="">
+									</div>
+									<div class=" modal-bottom-button d-flex justify-content-center py-3 mb-2">
+										<a href="#about" class="thm-btn" data-dismiss="modal"
+											aria-label="Close"><span>Back to Our work</span></a>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="modal fade bd-example-modal-lg" id="Tattveda" tabindex="-1" role="dialog"
+				<div class="modal fade bd-example-modal-lg" id="grandcrest" tabindex="-1" role="dialog"
 					aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 					<div class="modal-dialog modal-dialog-centered" role="document">
 						<div class="modal-content">
-							<div class="modal-header">
+							<div class="modal-header px-5">
 								<h5 class="modal-title" id="exampleModalLongTitle">Project Summary</h5>
-								<div type="button" class="" class="close" data-dismiss="modal" aria-label="Close">
+								<div type="button" class="close" data-dismiss="modal" aria-label="Close">
 									<a href="#"><span><i class="fa fa-times" aria-hidden="true"></i></span></a>
 								</div>
 							</div>
 							<div class="modal-body">
 								<div class="container-fluid">
-									<h2 class="text-center py-4">Tattveda - Organic Products Logo Concepts</h2>
-									<p class="text-center pb-4">Tattveda is a brand that introduces day to day products
-										such as toothbrushes,
-										combs, straws etc. made of of bio organic materials such as bamboo. An inital
-										logo concept was inspired by nature. The concept was to make it minimal yet
-										meaningful.</p>
-									<div class="modal-visuals">
-										<img class="w-100 mb-4 rounded shadow"
-											src="assets/images/projects/tattveda_1.webp" alt="">
-										<img class="w-100 mb-4 rounded shadow"
-											src="assets/images/projects/tattveda_2.webp" alt="">
-										<img class="w-100 mb-4 rounded shadow"
-											src="assets/images/projects/tattveda_3.webp" alt="">
+									<div class="row py-4 mb-5">
+										<div class="col-md-6 px-5 nopad-mobile">
+											<h2 class="text-left py-4">Grand Crest</h2>
+											<p class="text-left m-0 pb-4">Welcome to world of Interior Decor! <br>
+												Grand Crest is an interior Design, Fitout and furniture company that
+												provides a wide range of specialist services from design to build.They
+												are has ranked among the top Interior Design and Fitout Firms in the
+												U.A.E <br>
+												Their scope of work included revamping their logo, designing print such
+												as Business cards, cover letter, envolopes and lanyard as well as
+												vehicle material.
+											</p>
+											<div class="d-flex gap-5 text-center">
+												<div class="">
+													<p class="text-muted">YEAR</p>
+													<h4>2022</h4>
+												</div>
+												<div class="">
+													<p class="text-muted">INDUSTRY</p>
+													<h4>Interior Decor</h4>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6 text-center">
+											<img class="w-75" src="assets/images/projects/gc1.png" alt="">
+										</div>
+									</div>
+									<div class="modal-visuals px-5 nopad-mobile">
+										<img class="w-100 mb-4 rounded" src="assets/images/projects/gc2.png" alt="">
+										<img class="w-100 mb-4 rounded" src="assets/images/projects/gc3.png" alt="">
+										<img class="w-100 mb-4 rounded" src="assets/images/projects/gc4.png" alt="">
+									</div>
+									<div class="modal-bottom-button d-flex justify-content-center  py-3 mb-2">
+										<a href="#about" class="thm-btn" data-dismiss="modal"
+											aria-label="Close"><span>Back to Our work</span></a>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="modal fade bd-example-modal-lg" id="kagi" tabindex="-1" role="dialog"
+				<div class="modal fade bd-example-modal-lg" id="tatveda" tabindex="-1" role="dialog"
 					aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 					<div class="modal-dialog modal-dialog-centered" role="document">
 						<div class="modal-content">
-							<div class="modal-header">
+							<div class="modal-header px-5">
 								<h5 class="modal-title" id="exampleModalLongTitle">Project Summary</h5>
-								<div type="button" class="" class="close" data-dismiss="modal" aria-label="Close">
+								<div type="button" class="close" data-dismiss="modal" aria-label="Close">
 									<a href="#"><span><i class="fa fa-times" aria-hidden="true"></i></span></a>
 								</div>
 							</div>
 							<div class="modal-body">
 								<div class="container-fluid">
-									<h2 class="text-center py-4">Kagi Chocolates - Pitch Proposal</h2>
-									<div class="modal-visuals">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/kc_1.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/kc_2.gif"
-											alt="">
+									<div class="row py-4 mb-5">
+										<div class="col-md-6 px-5 nopad-mobile">
+											<h2 class="text-left py-4">Tatveda Organics <br>
+												Organic Marketplace</h2>
+											<p class="text-left m-0 pb-4">Welcome to the sustainable world of Tatveda
+												Organics! <br>
+												This Organic brand serves to provide us with numorous sutainable
+												products. Their main focus to create a zero waste zone with a holistic
+												well-being and a provide sustainable environment to one and all. <br>
+												Their scope of work included designing and packaging material such as
+												Gift boxes, tote bags and customized stickers as well as Hotel products
+												such as towels, slippers, handwash, body lotions and toothbrush.
+											</p>
+											<div class="d-flex gap-5 text-center">
+												<div class="">
+													<p class="text-muted">YEAR</p>
+													<h4>2022</h4>
+												</div>
+												<div class="">
+													<p class="text-muted">INDUSTRY</p>
+													<h4>Sustainable Development</h4>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6 text-center">
+											<img class="w-75" src="assets/images/projects/tat1.png" alt="">
+										</div>
+									</div>
+									<div class="modal-visuals px-5 nopad-mobile">
+										<img class="w-100 mb-4 rounded" src="assets/images/projects/tat2.png" alt="">
+										<img class="w-100 mb-4 rounded" src="assets/images/projects/tat3.png" alt="">
+										<img class="w-100 mb-4 rounded" src="assets/images/projects/tat4.png" alt="">
+										<img class="w-100 mb-4 rounded" src="assets/images/projects/tat5.png" alt="">
+									</div>
+									<div class="modal-bottom-button d-flex justify-content-center  py-3 mb-2">
+										<a href="#about" class="thm-btn" data-dismiss="modal"
+											aria-label="Close"><span>Back to Our work</span></a>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="modal fade bd-example-modal-lg" id="lg_design" tabindex="-1" role="dialog"
+				<div class="modal fade bd-example-modal-lg" id="meowtropolis" tabindex="-1" role="dialog"
 					aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 					<div class="modal-dialog modal-dialog-centered" role="document">
 						<div class="modal-content">
-							<div class="modal-header">
+							<div class="modal-header px-5">
 								<h5 class="modal-title" id="exampleModalLongTitle">Project Summary</h5>
-								<div type="button" class="" class="close" data-dismiss="modal" aria-label="Close">
+								<div type="button" class="close" data-dismiss="modal" aria-label="Close">
 									<a href="#"><span><i class="fa fa-times" aria-hidden="true"></i></span></a>
 								</div>
 							</div>
 							<div class="modal-body">
 								<div class="container-fluid">
-									<h2 class="text-center py-4">LG Design Summit - Branding & Brochure </h2>
-									<div class="modal-visuals">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/lg_1.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/lg_2.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/lg_3.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/lg_4.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/lg_5.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/lg_6.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/lg_7.webp"
-											alt="">
+									<div class="row py-4 mb-5">
+										<div class="col-md-6 px-5 nopad-mobile">
+											<h2 class="text-left py-4">Meowtropolis Cat Cafe</h2>
+											<p class="text-left m-0 pb-4">Welcome to the magnificent city of
+												Meowtropolis! <br>
+												This cafe has friendly cat-comrades who will serve you the highest
+												quality beverages and snacks and let you play with their purr-fect
+												little cats. <br>
+												Their scope of work included social media management, photography,
+												designing print & packaging material such as menus, cups of different
+												sizes and shapes, business cards, loyalty cards, back-wall drink board,
+												guidelines posters, custom stickers and so much more.
+											</p>
+											<div class="d-flex gap-5 text-center">
+												<div class="">
+													<p class="text-muted">YEAR</p>
+													<h4>2022</h4>
+												</div>
+												<div class="">
+													<p class="text-muted">INDUSTRY</p>
+													<h4>Food & Beverages</h4>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6 text-center">
+											<img class="w-75" src="assets/images/projects/meow1.png" alt="">
+										</div>
 									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="modal fade bd-example-modal-lg" id="dubai_holding" tabindex="-1" role="dialog"
-					aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-					<div class="modal-dialog modal-dialog-centered" role="document">
-						<div class="modal-content">
-							<div class="modal-header">
-								<h5 class="modal-title" id="exampleModalLongTitle">Project Summary</h5>
-								<div type="button" class="" class="close" data-dismiss="modal" aria-label="Close">
-									<a href="#"><span><i class="fa fa-times" aria-hidden="true"></i></span></a>
-								</div>
-							</div>
-							<div class="modal-body">
-								<div class="container-fluid">
-									<h2 class="text-center py-4">Dubai Holding Social Media </h2>
-									<p class="text-center pb-4">Dubai Holding is a global investment holding company
-										that develops and manages an extensive portfolio of companies focused on
-										investments, financial services, real estate, specialized business parks,
-										telecommunications and hospitality. Some of the projects that come under the
-										Dubai Holding umbrella are Burj Al Arab, Jumeirah Beach Hotel, TECOM, Dubai
-										Properties, Jumeirah Group, Arab Media Group, Dubai Retail and many more.
-									</p>
-									<div class="modal-visuals">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/dh_1.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/dh_2.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/dh_3.webp"
-											alt="">
+									<div class="modal-visuals px-5 nopad-mobile">
+										<img class="w-100 mb-4 rounded" src="assets/images/projects/meow2.png" alt="">
+										<img class="w-100 mb-4 rounded" src="assets/images/projects/meow3.png" alt="">
 									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="modal fade bd-example-modal-lg" id="aqdar" tabindex="-1" role="dialog"
-					aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-					<div class="modal-dialog modal-dialog-centered" role="document">
-						<div class="modal-content">
-							<div class="modal-header">
-								<h5 class="modal-title" id="exampleModalLongTitle">Project Summary</h5>
-								<div type="button" class="" class="close" data-dismiss="modal" aria-label="Close">
-									<a href="#"><span><i class="fa fa-times" aria-hidden="true"></i></span></a>
-								</div>
-							</div>
-							<div class="modal-body">
-								<div class="container-fluid">
-									<h2 class="text-center py-4">Aqdar World Summit - Logo & Brochure</h2>
-									<p class="text-center pb-4">A summit that is founded on the principles of
-										Khalifa
-										Empowerment Program for students know as Aqdar. This summit is the first
-										ever
-										platform to implement moral education to improve leadership qualities,
-										national,
-										religious and health awareness in students. The symbolism of the logo is to
-										set
-										freedom to the minds of the youth, that is the main agenda of "Aqdar" which
-										also
-										means "I Can" in Arabic. </p>
-									<div class="modal-visuals">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/aqdar_1.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/aqdar_2.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/aqdar_3.webp"
-											alt="">
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="modal fade bd-example-modal-lg" id="audi" tabindex="-1" role="dialog"
-					aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-					<div class="modal-dialog modal-dialog-centered" role="document">
-						<div class="modal-content">
-							<div class="modal-header">
-								<h5 class="modal-title" id="exampleModalLongTitle">Project Summary</h5>
-								<div type="button" class="" class="close" data-dismiss="modal" aria-label="Close">
-									<a href="#"><span><i class="fa fa-times" aria-hidden="true"></i></span></a>
-								</div>
-							</div>
-							<div class="modal-body">
-								<div class="container-fluid">
-									<h2 class="text-center py-4">Audi - Social Pitch</h2>
-									<p class="text-center pb-4">UAE based startup bakery, specializing in cupcakes,
-										mini-bites and doughnuts. 2 versions of logos as well as a simple packaging.
-									</p>
-									<div class="modal-visuals">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/audi_1.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/audi_2.webp"
-											alt="">
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="modal fade bd-example-modal-lg" id="united_nations" tabindex="-1" role="dialog"
-					aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-					<div class="modal-dialog modal-dialog-centered" role="document">
-						<div class="modal-content">
-							<div class="modal-header">
-								<h5 class="modal-title" id="exampleModalLongTitle">Project Summary</h5>
-								<div type="button" class="" class="close" data-dismiss="modal" aria-label="Close">
-									<a href="#"><span><i class="fa fa-times" aria-hidden="true"></i></span></a>
-								</div>
-							</div>
-							<div class="modal-body">
-								<div class="container-fluid">
-									<h2 class="text-center py-4">United Nations - He For She (Pitch Proposal) </h2>
-									<p class="text-center pb-4">UAE based startup bakery, specializing in cupcakes,
-										mini-bites and doughnuts. 2 versions of logos as well as a simple packaging.
-									</p>
-									<div class="modal-visuals">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/un_1.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/un_2.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/un_3.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/un_4.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/un_5.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/un_6.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/un_7.webp"
-											alt="">
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="modal fade bd-example-modal-lg" id="nefc" tabindex="-1" role="dialog"
-					aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-					<div class="modal-dialog modal-dialog-centered" role="document">
-						<div class="modal-content">
-							<div class="modal-header">
-								<h5 class="modal-title" id="exampleModalLongTitle">Project Summary</h5>
-								<div type="button" class="" class="close" data-dismiss="modal" aria-label="Close">
-									<a href="#"><span><i class="fa fa-times" aria-hidden="true"></i></span></a>
-								</div>
-							</div>
-							<div class="modal-body">
-								<div class="container-fluid">
-									<h2 class="text-center py-4">Corporate Branding for NEFC Group & Subsidiaries
-									</h2>
-									<p class="text-center pb-4">NEFC group also added a new subsidiary called Zeraf,
-										an
-										engineering company based in Djibouti, which needed a logo inspired by the
-										wildlife of Djibouti. Zeraf, name derived from the work "Giraffe" needed a
-										logo
-										with a corporate blend with the word "Giraffe".
-									</p>
-									<div class="modal-visuals">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/nefc_1.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/nefc_2.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/nefc_3.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/nefc_4.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/nefc_5.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/nefc_6.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/nefc_7.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/nefc_8.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/nefc_9.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/nefc_10.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/nefc_11.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/nefc_12.webp"
-											alt="">
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="modal fade bd-example-modal-lg" id="rolls" tabindex="-1" role="dialog"
-					aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-					<div class="modal-dialog modal-dialog-centered" role="document">
-						<div class="modal-content">
-							<div class="modal-header">
-								<h5 class="modal-title" id="exampleModalLongTitle">Project Summary</h5>
-								<div type="button" class="" class="close" data-dismiss="modal" aria-label="Close">
-									<a href="#"><span><i class="fa fa-times" aria-hidden="true"></i></span></a>
-								</div>
-							</div>
-							<div class="modal-body">
-								<div class="container-fluid">
-									<h2 class="text-center py-4">Rolls & Bowls - Branding + Packaging
-									</h2>
-									<div class="modal-visuals">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/rolls_1.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/rolls_2.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/rolls_3.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/rolls_4.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/rolls_5.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/rolls_6.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/rolls_7.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/rolls_8.webp"
-											alt="">
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="modal fade bd-example-modal-lg" id="jeeya" tabindex="-1" role="dialog"
-					aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-					<div class="modal-dialog modal-dialog-centered" role="document">
-						<div class="modal-content">
-							<div class="modal-header">
-								<h5 class="modal-title" id="exampleModalLongTitle">Project Summary</h5>
-								<div type="button" class="" class="close" data-dismiss="modal" aria-label="Close">
-									<a href="#"><span><i class="fa fa-times" aria-hidden="true"></i></span></a>
-								</div>
-							</div>
-							<div class="modal-body">
-								<div class="container-fluid">
-									<h2 class="text-center py-4">Jeeya Healthy Foods Branding</h2>
-									<p class="text-center pb-4">
-										Logo and package design UAE based startup for healthy snacks.
-										Multiple logo options in primary as well as secondary color were developed
-										for
-										this project.
-										The approved option has packaging designed as well. </p>
-									<div class="modal-visuals">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/jeeya_1.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/jeeya_2.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/jeeya_3.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/jeeya_4.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/jeeya_5.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/jeeya_6.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/jeeya_7.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/jeeya_8.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow" src="assets/images/projects/jeeya_9.webp"
-											alt="">
-										<img class="w-100 mb-4 rounded shadow"
-											src="assets/images/projects/jeeya_10.webp" alt="">
+									<div class="modal-bottom-button d-flex justify-content-center  py-3 mb-2">
+										<a href="#about" class="thm-btn" data-dismiss="modal"
+											aria-label="Close"><span>Back to Our work</span></a>
 									</div>
 								</div>
 							</div>
@@ -783,9 +435,8 @@
 			</ul>
 			<div class="mobile-nav__top">
 				<div class="mobile-nav__social">
-					<a href="#" class="fab fa-twitter"></a>
 					<a href="#" class="fab fa-facebook-square"></a>
-					<a href="#" class="fab fa-pinterest-p"></a>
+					<a href="#" class="fab fa-tiktok"></a>
 					<a href="#" class="fab fa-instagram"></a>
 				</div>
 			</div>
